@@ -1,0 +1,22 @@
+# Ignorar arquivos e pastas gerados localmente
+
+# Node.js
+node_modules/
+npm-debug.log
+
+# Python
+vcs/
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.log
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Arquivos de IDE (VS Code)
+.vscode/

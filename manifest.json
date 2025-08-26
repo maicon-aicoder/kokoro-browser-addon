@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Kokoro TTS",
+  "version": "1.0",
+  "description": "Reads selected text using Kokoro TTS.",
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "offscreen"
+  ],
+  "host_permissions": ["http://localhost:8880/*"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
